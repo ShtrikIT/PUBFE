@@ -3,6 +3,41 @@
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover; 
+    background-attachment: fixed;
+    background-position: center center;
     margin-bottom: 0;
 }
 
+
+
+#search {
+    height: 150px;
+    width: 50%;
+    background: rgba(0,0,0,.60);
+    padding: 50px 60px;
+    margin-top:18%;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius:2px;
+    text-align:center;
+    z-index:1;
+}
+
+
+/*.input-group {
+right:5%;
+width:110%;
+
+}*/
+@media screen and (min-width:1200px) {
+    .input-group {
+    
+    width:110%;
+    right:0px;
+    }
+}
+
+
+input {
+       max-width: 100%; 
+}
