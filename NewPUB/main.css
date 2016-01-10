@@ -1,5 +1,6 @@
 html, body {height: 100%;}
 
+
 .jumbotron {
     background:radial-gradient( circle, rgba(0, 0, 0, -0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url(Images/jumbo.jpg);
     height: 100%;
@@ -51,3 +52,13 @@ width:110%;
 input {
        max-width: 100%; 
 }
+.nav>li {
+    margin-left: 10px;
+    font-size: 20px;
+  
+}
+    .navbar-nav {
+        margin:7.5px;
+}
+
+
