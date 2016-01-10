@@ -21,11 +21,11 @@ html, body {height: 100%;}
 }
 
 #search {
-    height: 150px;
+    height: 10%;
     width: 50%;
     background: rgba(0,0,0,.60);
     padding: 50px 60px;
-    margin-top:25%;
+    margin-top:30%;
     margin-left:auto;
     margin-right: auto;
     border-radius:2px;
@@ -50,4 +50,19 @@ width:110%;
 
 input {
        max-width: 100%; 
+}
+
+.bottom-buttons {
+    text-align: center;
+    display: inline;
+    color: whitesmoke;
+    border: 4px solid whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-top: 80px;
+    background: rgba(0,0,0,.10);
+}
+.bottom-buttons:hover {
+    background: rgba(0,0,0,.30);
 }
