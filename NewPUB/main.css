@@ -1,21 +1,31 @@
+html, body {height: 100%;}
+
 .jumbotron {
     background:radial-gradient( circle, rgba(0, 0, 0, -0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url(Images/jumbo.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;
-    background-position: center center;
     margin-bottom: 0;
+   
 }
 
-
+.navbar {
+    background:transparent;
+    border:none;
+    color:antiquewhite;
+    font-family: serif;
+    text-shadow: 2px 2px #404040 ;
+    margin-left:0;
+    
+}
 
 #search {
     height: 150px;
     width: 50%;
     background: rgba(0,0,0,.60);
     padding: 50px 60px;
-    margin-top:18%;
+    margin-top:25%;
     margin-left:auto;
     margin-right: auto;
     border-radius:2px;
