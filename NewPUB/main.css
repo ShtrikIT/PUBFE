@@ -1,4 +1,5 @@
-body {
+
+html, body {
     height: 100%;
     background:radial-gradient( circle, rgba(0, 0, 0, -0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ),url(Images/jumbo.jpg);
     background-repeat: no-repeat;
@@ -173,11 +174,44 @@ input {
 }
 
 
-
+@keyframes shade-in { 
+    /*0%   {background: rgba(255,255,255,.10); font-size: 30px;}
+    25%  {background: rgba(255,255,255,.12); font-size: 30.1px;}
+    50%  {background: rgba(255,255,255,.16); font-size: 30.2px;}
+    75%  {background: rgba(255,255,255,.21); font-size: 30.25px;}
+    100% {background: rgba(255,255,255,.25); font-size: 30.3px;}*/
+    
+    0%   {background: rgba(0,0,0,.10); font-size: 30px;}
+    25%  {background: rgba(0,0,0,.15); font-size: 30.1px;}
+    50%  {background: rgba(0,0,0,.20); font-size: 30.2px;}
+    75%  {background: rgba(0,0,0,.25); font-size: 30.25px;}
+    100% {background: rgba(0,0,0,.30); font-size: 30.3px;}
+}
 
 
 
 .inner:hover {
-    background: rgba(0,0,0,.30);
+    animation-name: shade-in;
+    animation-duration: 360ms;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease-out; 
 }
 
+@keyframes shade-out {
+   /* 100% {background: rgba(255,255,255,.10); font-size: 30px;}
+    75%  {background: rgba(255,255,255,.12); font-size: 30.1px;}
+    50%  {background: rgba(255,255,255,.16); font-size: 30.2px;}
+    25%  {background: rgba(255,255,255,.21); font-size: 30.25px;}
+    0%   {background: rgba(255,255,255,.25); font-size: 30.3px;}*/
+    
+    100% {background: rgba(0,0,0,.10); font-size: 30px;}
+    75%  {background: rgba(0,0,0,.15); font-size: 30.1px;}
+    50%  {background: rgba(0,0,0,.20); font-size: 30.2px;}
+    25%  {background: rgba(0,0,0,.25); font-size: 30.25px;}
+    0%   {background: rgba(0,0,0,.30); font-size: 30.3px;}
+}
+.inner {
+    animation-name: shade-out;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
