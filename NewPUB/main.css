@@ -6,7 +6,7 @@ html, body {
     background-size: cover; 
     background-attachment: fixed;
     margin-bottom: 0;
-    font-family:  Century Gothic, serif;
+    font-family: Century Gothic, serif;
     color: antiquewhite;
     text-shadow: 2px 2px #404040;}
 
@@ -114,7 +114,8 @@ html, body {
 /*NAVBAR-------------------*/
 .navbar {
     background:transparent;
-    border:none;
+    border: none;
+    border-bottom: 1px solid antiquewhite;
     color:antiquewhite;
     font-family:  Century Gothic, serif;
     text-shadow: 2px 2px #404040 ;
