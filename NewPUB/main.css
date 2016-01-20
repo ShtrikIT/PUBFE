@@ -12,7 +12,7 @@ html, body {
 
 @media (min-width: 768px){ /*Aligns navbar left with navbar right*/
 .navbar-nav>li>a {
-     padding-top: 10px;}
+     padding-top: 35px;}
 }
 
 @media screen and (max-height:800px) {
@@ -262,4 +262,6 @@ input {
 .kat>a:active {background: rgba(0,0,0,.3);} /*Mozd proradi ako bude zaista vodio nedje*/
   
     
-
+img {
+    vertical-align: sub;
+}
