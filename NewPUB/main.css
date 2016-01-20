@@ -265,3 +265,27 @@ input {
 img {
     vertical-align: sub;
 }
+
+.card-prem {
+    padding: 18px;
+    border: 1px solid gray;
+    background: rgba(0,0,0,0.8);
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    color:antiquewhite;
+    text-shadow: none;
+    height:270px;
+}
+
+.card {
+    padding: 18px;
+    border: 1px solid gray;
+    background: rgba(0,0,0,0.3);
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    color:antiquewhite;
+    text-shadow: none;
+    height:270px;
+}
