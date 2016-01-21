@@ -272,10 +272,11 @@ img {
     background: rgba(0,0,0,0.8);
     font-size: 20px;
     border-radius: 5px;
+    border-color: antiquewhite;
     margin-bottom: 18px;
     color:antiquewhite;
     text-shadow: none;
-    height:270px;
+    height:230px;
 }
 
 .card {
@@ -287,5 +288,15 @@ img {
     margin-bottom: 18px;
     color:antiquewhite;
     text-shadow: none;
-    height:270px;
+    height:230px;
+}
+
+.card-image {
+    height:100px;
+    margin:0;
+}
+
+.card-logo {
+    max-height: 100%;
+    max-width: 100%;
 }
