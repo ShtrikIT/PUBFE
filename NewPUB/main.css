@@ -12,7 +12,7 @@ html, body {
 
 @media (min-width: 768px){ /*Aligns navbar left with navbar right*/
 .navbar-nav>li>a {
-     padding-top: 35px;}
+     padding-top: 20px;}
 }
 
 @media screen and (max-height:800px) {
@@ -240,8 +240,16 @@ input {
         font-size: 16px; /*not to break the buttons in two lines of text*/
     }
 }
-#in-nav {
+.navbar-toggle {
+    margin-top: 7px;
+    padding: 12px 10px;
     
+}
+.navbar-default .navbar-toggle {
+    border-color: antiquewhite;
+}
+.navbar-brand {
+    padding: 0;
 }
 
 @keyframes kat-in { 
