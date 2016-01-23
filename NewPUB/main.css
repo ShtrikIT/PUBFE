@@ -255,14 +255,14 @@ input {
 @keyframes kat-in { 
 
     
-    0%   {background: rgba(0,0,0,.6); font-size: s30px;}
-    25%  {background: rgba(0,0,0,.55); font-size: s30.1pxs;}
-    50%  {background: rgba(0,0,0,.5); font-size: s30.2pxs}
-    75%  {background: rgba(0,0,0,.45); font-size: s30.25pxs;}
-    100% {background: rgba(0,0,0,.4); font-size: s30.3pxs;}
+    0%   {background: rgba(0,0,0,.6);}
+    25%  {background: rgba(0,0,0,.55);}
+    50%  {background: rgba(0,0,0,.5);}
+    75%  {background: rgba(0,0,0,.45);}
+    100% {background: rgba(0,0,0,.4);}
 }
 
-.kat:hover {
+.kat-res:hover, .kat:hover {
     animation-name: kat-in;
     animation-duration: 200ms;
     animation-fill-mode: forwards;
@@ -274,18 +274,30 @@ img {
     vertical-align: sub;
 }
 
-.card-prem {
-    padding: 18px;
+.kat-head {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 12px;
+    background-color: rgba(0,0,0,0.2);
+}
+.kat-res {
+    padding: 8px;
     border: 1px solid gray;
-    background: rgba(0,0,0,0.8);
-    font-size: 20px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    font-size: 16px;
     border-radius: 5px;
-    border-color: antiquewhite;
-    margin-bottom: 18px;
+    margin-bottom: 8px;
     color:antiquewhite;
     text-shadow: none;
-    height:230px;
+    font-weight: bold;
 }
+
+.card-prem {
+    background: rgba(0,0,0,0.8)!Important;
+    border-color: antiquewhite !Important;
+    color:antiquewhite !Important;
+   }
 
 .card {
     padding: 18px;
@@ -294,17 +306,29 @@ img {
     font-size: 20px;
     border-radius: 5px;
     margin-bottom: 18px;
-    color:antiquewhite;
+    color:darkslategray;
     text-shadow: none;
     height:230px;
 }
 
 .card-image {
-    height:100px;
-    margin:0;
+    height:192px;
+    padding-right: 18px;
+    border-right: 1px solid antiquewhite;
+  
 }
 
-.card-logo {
-    max-height: 100%;
-    max-width: 100%;
+
+.c3-pad{padding-right: 0px;}
+
+
+.card-header {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid antiquewhite;
+}
+
+.ostalo {
+    font-size: 14px;
 }
