@@ -270,7 +270,7 @@ input {
 .kat>a:active {background: rgba(0,0,0,.3);} /*Mozd proradi ako bude zaista vodio nedje*/
   
     
-img {
+#logo {
     vertical-align: sub;
 }
 
@@ -308,27 +308,31 @@ img {
     margin-bottom: 18px;
     color:darkslategray;
     text-shadow: none;
-    height:230px;
+    height:210px;
 }
 
 .card-image {
-    height:192px;
+    height:172px;
     padding-right: 18px;
     border-right: 1px solid antiquewhite;
   
 }
-
-
-.c3-pad{padding-right: 0px;}
-
-
+#card-text {
+    padding-left: 18px;
+}
 .card-header {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     border-bottom: 1px solid antiquewhite;
+    height:50px;
 }
-
+.card-info {
+    font-size: 17px;
+    padding: 10px;
+    padding-left: 0;
+    border-bottom: 1px solid antiquewhite;
+}
 .ostalo {
     font-size: 14px;
 }
