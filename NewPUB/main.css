@@ -239,8 +239,12 @@ input {
     .kat {
         font-size: 16px; /*not to break the buttons in two lines of text*/
     }
-    
-    
+    .moreInfo{
+        font-size: 13px !Important;
+    }
+    .card-info{
+        font-size:13px;
+    }
 }
 .navbar-toggle {
     margin-top: 7px;
