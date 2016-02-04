@@ -333,7 +333,9 @@ input {
     height:auto;
     border: 1px solid antiquewhite;
     border-radius: 4px;
+    margin:auto;
 }
+
 #card-text {
     padding-right: 12px;
     border-left: 1px solid antiquewhite;
@@ -343,7 +345,7 @@ input {
     font-weight: bold;
     text-align: center;
     border-bottom: 1px solid antiquewhite;
-    height:50px;
+    height:auto;
 }
 .card-info {
     font-size: 17px;
