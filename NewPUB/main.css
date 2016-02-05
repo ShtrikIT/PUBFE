@@ -338,7 +338,7 @@ input {
     margin:auto;
 }
 
-#card-text {
+.card-text {
     padding-right: 12px;
 /*
     border-left: 1px solid antiquewhite;
@@ -353,7 +353,7 @@ input {
 }
 .card-info {
     font-size: 17px;
-    padding: 10px 10px 0 0;
+    padding: 10px 0 0 0;
 }
 
 .info-btns {
@@ -374,4 +374,11 @@ input {
     background: rgba(255,255,255,.1);
     border: 1px solid antiquewhite;
     border-radius: 3px;
+}
+li {
+    list-style-type: none;   
+}
+
+.card-ul{
+    padding:0;
 }
