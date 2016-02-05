@@ -386,11 +386,9 @@ li {
     content: "\e062";
     font-family: 'Glyphicons Halflings';
     margin-top: 1px;
-    float: left;  
 }
 .telefon:before {
     content: "\e182";
     font-family: 'Glyphicons Halflings';
-    margin-top: 1px;
-    float: left;  
+    margin-top: 1px; 
 }
