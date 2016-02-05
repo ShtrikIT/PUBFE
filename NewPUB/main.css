@@ -16,6 +16,12 @@ html, body {
      padding-top: 20px;}
 }
 
+@media (max-width:991px){ /*Fills the 20px sizing gap*/
+    .kateg-div{
+        display:none;
+    }
+}
+
 @media screen and (max-height:800px) {
     #search {
         margin-top:20%;
@@ -53,9 +59,7 @@ html, body {
     .bottom-buttons {
         margin-top: 35px;
     }
-    .kateg-div{
-        display: none;
-    }
+   
 }
 
 @media screen and (max-width:970px) and (min-width:769px) /*SMALL SCREENS_______________________*/
@@ -73,9 +77,7 @@ html, body {
      .bottom-buttons {
          margin-top: 80px;
     }
-    .kateg-div{
-        display: none;
-    }
+   
 }
 
 @media screen and (max-width:1200px) and (min-width:971px)/*MEDIUM SCREENS_______________________*/
