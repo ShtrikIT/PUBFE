@@ -338,7 +338,9 @@ input {
 
 #card-text {
     padding-right: 12px;
+/*
     border-left: 1px solid antiquewhite;
+*/
 }
 .card-header {
     font-size: 18px;
