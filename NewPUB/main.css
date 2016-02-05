@@ -382,3 +382,10 @@ li {
 .card-ul{
     padding:0;
 }
+#adresa:before {
+     content: "\e062";
+    font-family: 'Glyphicons Halflings';
+    margin-top: 1px;
+    float: left;
+   
+}
