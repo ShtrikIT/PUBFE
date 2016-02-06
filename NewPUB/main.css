@@ -106,6 +106,8 @@ html, body {
     .bottom-buttons {
          margin-top: 80px;
     }
+   
+}
 }
 
 @media screen and (min-width:1200px) /*LARGE SCREENS_______________________*/
