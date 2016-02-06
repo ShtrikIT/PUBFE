@@ -1,8 +1,8 @@
 
 html, body {
     height: 100%;
-    background:radial-gradient( circle, rgba(0, 0, 0, -0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ),url(Images/jumbo.jpg);
-    /*background:url(Images/obicanprvimaj.jpg);*/
+    /*background:radial-gradient( circle, rgba(0, 0, 0, -0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ),url(Images/jumbo.jpg);*/
+    background:url(Images/obicanprvimaj.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;
@@ -42,7 +42,7 @@ html, body {
 }
 }
 
-@media screen and (max-width:768px) /*EXTRA SMALL SCREENS_______________________*/
+@media screen and (max-width:767px) /*EXTRA SMALL SCREENS_______________________*/
 {
     #search {
         width:100%;
@@ -59,10 +59,17 @@ html, body {
     .bottom-buttons {
         margin-top: 35px;
     }
+    .card-header{
+        padding-top: 10px;
+       /* font-size: 18px !Important;*/
+        }
+    .card-image{
+        display: none !Important;
+    }
    
 }
 
-@media screen and (max-width:970px) and (min-width:769px) /*SMALL SCREENS_______________________*/
+@media screen and (max-width:969px) and (min-width:768px) /*SMALL SCREENS_______________________*/
 {
     #search {
         width:80%;
@@ -80,7 +87,7 @@ html, body {
    
 }
 
-@media screen and (max-width:1200px) and (min-width:971px)/*MEDIUM SCREENS_______________________*/
+@media screen and (max-width:1199px) and (min-width:970px)/*MEDIUM SCREENS_______________________*/
 {
     .input-group {
     
@@ -101,7 +108,7 @@ html, body {
     }
 }
 
-@media screen and (min-width:1201px) /*LARGE SCREENS_______________________*/
+@media screen and (min-width:1200px) /*LARGE SCREENS_______________________*/
 {
  
     .input-group {
@@ -350,6 +357,7 @@ input {
     text-align: center;
     border-bottom: 1px solid antiquewhite;
     height:auto;
+    padding-bottom: 10px;
 }
 .card-info {
     font-size: 17px;
@@ -362,6 +370,11 @@ input {
 .card-prem .card-info a:link{
     color:burlywood;
 }
+.prem-star{
+    text-align: center;
+    color:gold;
+    font-size: 18px;
+}
 
 
 .moreInfo {
@@ -370,7 +383,7 @@ input {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    color:gold;
+    color:blanchedalmond;
     background: rgba(255,255,255,.1);
     border: 1px solid antiquewhite;
     border-radius: 3px;
