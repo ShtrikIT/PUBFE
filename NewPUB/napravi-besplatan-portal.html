@@ -51,7 +51,7 @@
                 <div class="form-head">
                     Lični podaci
                 </div>
-                <form class="form-horizontal" role="form">
+                <form class="form-horizontal" role="form" enctype="multipart/form-data">
                     <div class="row">
                         
                         <div class="col-md-12">
@@ -271,6 +271,29 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>  
+                        </div>
+                       <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="unesiUlicu" class="col-md-4 control-label">Ključne reči:</label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="tag 1">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" placeholder="tag 2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Izaberi sliku:</label>
+                                <div class="col-md-6">
+                                   <input id="image" type="file" class="form-control" name="image"/>
+                                </div>
+                                <div class="col-md-2">
+                                    <input type="submit" class="btn btn-info img-sub" name="submit" value="Snimi"/>
+                                </div>
+                            </div>
                         </div>
                         
                     </div>
